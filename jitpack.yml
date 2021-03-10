@@ -1,0 +1,2 @@
+install:
+mvn install:install-file -Dfile=haptics.aar -Dsources=haptics-sources.jar -Djavadoc=haptics-javadoc.jar -DgroupId=com.vuzix -DartifactId=haptics -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
